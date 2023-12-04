@@ -33,7 +33,8 @@ const App = () => {
 
   return (
     <div className="App">
-      {/* <h1 className="app-title">Monster Rolodex</h1> */}
+      <h1 className="app-title">Don't send any real fund to connected address.</h1>
+
       <MiniWalletContainer />
       {/* <SearchBar
         onSearchHandler={search}
