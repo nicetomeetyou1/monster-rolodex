@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@fum-is-chum/scallop-mini-wallet':
-    specifier: ^0.1.3
-    version: 0.1.3(react@18.2.0)(webpack@5.89.0)
+    specifier: ^0.1.9
+    version: 0.1.9(react@18.2.0)(webpack@5.89.0)
   '@testing-library/jest-dom':
     specifier: ^5.16.5
     version: 5.17.0
@@ -1738,8 +1738,8 @@ packages:
       micro-ftch: 0.3.1
     dev: false
 
-  /@fum-is-chum/scallop-mini-wallet@0.1.3(react@18.2.0)(webpack@5.89.0):
-    resolution: {integrity: sha512-RNTYsE9WelzrF/BYoxYJ6LbcXDs/ElwJbIX7p6zQkdCEyZwC2zOlop3k4UnuK28avANq1P3Tgx+i8/sbe+OAKQ==, tarball: https://npm.pkg.github.com/download/@fum-is-chum/scallop-mini-wallet/0.1.3/408ac9a37b5282cdbb7fb77e5438ee5b604023a2}
+  /@fum-is-chum/scallop-mini-wallet@0.1.9(react@18.2.0)(webpack@5.89.0):
+    resolution: {integrity: sha512-y6xgHaaCw4pkpqJGXqlDhhYSAWg3H1LNjikfsS/ISnJglNJ6R19Fgg5W5Zqpf3CLuEpW3vFwelQlfsA7ijpuIA==, tarball: https://npm.pkg.github.com/download/@fum-is-chum/scallop-mini-wallet/0.1.9/fad5af9206d00ce3f3a53e70f1e9343309997d26}
     peerDependencies:
       react: '>=16'
     dependencies:

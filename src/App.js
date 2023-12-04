@@ -32,21 +32,11 @@ const App = () => {
   };
 
   return (
-    <div className="App">
-      <h1 className="app-title">Don't send any real fund to connected address.</h1>
-
+    <div>
       <MiniWalletContainer />
-      {/* <SearchBar
-        onSearchHandler={search}
-        placeholder="search monsters"
-        className="monsters search-bar"
-      />
-      {(() => {
-        if (filteredMonsters.length > 0) {
-          // show component only if array has elements
-          return <CardList monsters={filteredMonsters} />;
-        }
-      })()} */}
+      <div className="App">
+        <h1 className="app-title">Don't send any real fund to connected address.</h1>
+      </div>
     </div>
   );
 };
