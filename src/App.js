@@ -2,6 +2,7 @@ import "./App.css";
 import CardList from "./components/card-list/card-list.component";
 import SearchBar from "./components/search-bar/search-bar.component";
 import { useState, useEffect } from "react";
+import { MiniWalletContainer } from '@fum-is-chum/scallop-mini-wallet'
 
 const App = () => {
   const [searchField, setSearchField] = useState(""); // [value, setValue], useState(initialState)
@@ -32,8 +33,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="app-title">Monster Rolodex</h1>
-      <SearchBar
+      {/* <h1 className="app-title">Monster Rolodex</h1> */}
+      <MiniWalletContainer />
+      {/* <SearchBar
         onSearchHandler={search}
         placeholder="search monsters"
         className="monsters search-bar"
@@ -43,7 +45,7 @@ const App = () => {
           // show component only if array has elements
           return <CardList monsters={filteredMonsters} />;
         }
-      })()}
+      })()} */}
     </div>
   );
 };
