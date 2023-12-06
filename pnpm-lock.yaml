@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@scallop-io/scallop-mini-wallet':
-    specifier: ^0.1.1
-    version: 0.1.1(react@18.2.0)(webpack@5.89.0)
+    specifier: ^0.1.5
+    version: 0.1.5(react@18.2.0)(webpack@5.89.0)
   '@testing-library/jest-dom':
     specifier: ^5.16.5
     version: 5.17.0
@@ -2306,8 +2306,8 @@ packages:
     resolution: {integrity: sha512-2/U3GXA6YiPYQDLGwtGlnNgKYBSwCFIHf8Y9LUY5VATHdtbLlU0Y1R3QoBnT0aB4qv/BEiVVsj7LJXoQCgJ2vA==}
     dev: false
 
-  /@scallop-io/scallop-mini-wallet@0.1.1(react@18.2.0)(webpack@5.89.0):
-    resolution: {integrity: sha512-8ipHXOscv7oy3akjlRu35O/khsYib70wbwD1btMt1rJ0TDO6ihes+EB+fDRY7K2INfez+H/coa7sFcaa9QhkvA==, tarball: https://npm.pkg.github.com/download/@scallop-io/scallop-mini-wallet/0.1.1/65df0a95c19162466c922291bba13853eb438208}
+  /@scallop-io/scallop-mini-wallet@0.1.5(react@18.2.0)(webpack@5.89.0):
+    resolution: {integrity: sha512-h2aS8ivTsq2Xx6CQm0sKoNga4Y3xICKeJx3xN8amK6OaOFlBzYVAUcxwmoOD9RnJ7MmEGHTeyXrNBVFsjo0OTQ==, tarball: https://npm.pkg.github.com/download/@scallop-io/scallop-mini-wallet/0.1.5/227d0af0635da18b4be3dc0a499699d1ea1dbb23}
     peerDependencies:
       react: '>=16'
     dependencies:
@@ -2316,7 +2316,7 @@ packages:
       '@mysten/zklogin': 0.3.8
       '@noble/hashes': 1.3.2
       '@tanstack/react-query': 5.12.2(react@18.2.0)
-      aftermath-ts-sdk: 1.1.9
+      aftermath-ts-sdk: 1.1.10
       bignumber.js: 9.1.2
       classnames: 2.3.2
       crypto-browserify: 3.12.0
@@ -3230,8 +3230,8 @@ packages:
       regex-parser: 2.2.11
     dev: false
 
-  /aftermath-ts-sdk@1.1.9:
-    resolution: {integrity: sha512-0A+bjXXYWGcOtIdhEpj8peVg+YSaj9FOcTQm5PUk77yzWw63bYxiAZKDWP+XqF8pwyMHLXe1CLifySuO7UrnSA==}
+  /aftermath-ts-sdk@1.1.10:
+    resolution: {integrity: sha512-/cuol7qYYqrb0Lu6H3ainHzt01bm8e6YsSkpPVI3jfXoueVZDtX70dTyNHj3auCU7IJdcnKuWYorcFL0UTh3Bw==}
     dependencies:
       '@mysten/sui.js': 0.47.0
       '@pythnetwork/pyth-evm-js': 1.29.2
