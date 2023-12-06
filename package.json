@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fum-is-chum/scallop-mini-wallet": "^0.1.9",
+    "@scallop-io/scallop-mini-wallet": "^0.1.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

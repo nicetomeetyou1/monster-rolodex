@@ -5,9 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@fum-is-chum/scallop-mini-wallet':
-    specifier: ^0.1.9
-    version: 0.1.9(react@18.2.0)(webpack@5.89.0)
+  '@scallop-io/scallop-mini-wallet':
+    specifier: ^0.1.0
+    version: 0.1.0(react@18.2.0)(webpack@5.89.0)
   '@testing-library/jest-dom':
     specifier: ^5.16.5
     version: 5.17.0
@@ -1738,38 +1738,6 @@ packages:
       micro-ftch: 0.3.1
     dev: false
 
-  /@fum-is-chum/scallop-mini-wallet@0.1.9(react@18.2.0)(webpack@5.89.0):
-    resolution: {integrity: sha512-y6xgHaaCw4pkpqJGXqlDhhYSAWg3H1LNjikfsS/ISnJglNJ6R19Fgg5W5Zqpf3CLuEpW3vFwelQlfsA7ijpuIA==, tarball: https://npm.pkg.github.com/download/@fum-is-chum/scallop-mini-wallet/0.1.9/fad5af9206d00ce3f3a53e70f1e9343309997d26}
-    peerDependencies:
-      react: '>=16'
-    dependencies:
-      '@metamask/browser-passworder': 4.3.0
-      '@mysten/sui.js': 0.47.0
-      '@mysten/zklogin': 0.3.8
-      '@noble/hashes': 1.3.2
-      '@tanstack/react-query': 5.12.2(react@18.2.0)
-      aftermath-ts-sdk: 1.1.9
-      bignumber.js: 9.1.2
-      classnames: 2.3.2
-      crypto-browserify: 3.12.0
-      dexie: 3.2.4
-      dexie-export-import: 4.0.7(dexie@3.2.4)
-      jose: 5.1.3
-      node-polyfill-webpack-plugin: 2.0.1(webpack@5.89.0)
-      react: 18.2.0
-      stream-browserify: 3.0.0
-      uuid: 9.0.1
-      zustand: 4.4.7(react@18.2.0)
-    transitivePeerDependencies:
-      - '@types/react'
-      - bufferutil
-      - debug
-      - immer
-      - supports-color
-      - utf-8-validate
-      - webpack
-    dev: false
-
   /@humanwhocodes/config-array@0.11.13:
     resolution: {integrity: sha512-JSBDMiDKSzQVngfRjOdFXgFfklaXI4K9nLF49Auh21lmBWRLIK3+xTErTWD4KU54pb6coM6ESE7Awz/FNU3zgQ==}
     engines: {node: '>=10.10.0'}
@@ -2336,6 +2304,38 @@ packages:
 
   /@rushstack/eslint-patch@1.6.0:
     resolution: {integrity: sha512-2/U3GXA6YiPYQDLGwtGlnNgKYBSwCFIHf8Y9LUY5VATHdtbLlU0Y1R3QoBnT0aB4qv/BEiVVsj7LJXoQCgJ2vA==}
+    dev: false
+
+  /@scallop-io/scallop-mini-wallet@0.1.0(react@18.2.0)(webpack@5.89.0):
+    resolution: {integrity: sha512-9uQf+c8MjqwDgJ+UQwLnxqNbiAIaIPDH46WaAEFXEri6Gm6AYEFx7IwWPYhI7jSKWVhrAkA3vPrMJ1FBTLWTAA==, tarball: https://npm.pkg.github.com/download/@scallop-io/scallop-mini-wallet/0.1.0/0938410727a6aab9149ba8dd5013d15ecccd43f8}
+    peerDependencies:
+      react: '>=16'
+    dependencies:
+      '@metamask/browser-passworder': 4.3.0
+      '@mysten/sui.js': 0.47.0
+      '@mysten/zklogin': 0.3.8
+      '@noble/hashes': 1.3.2
+      '@tanstack/react-query': 5.12.2(react@18.2.0)
+      aftermath-ts-sdk: 1.1.9
+      bignumber.js: 9.1.2
+      classnames: 2.3.2
+      crypto-browserify: 3.12.0
+      dexie: 3.2.4
+      dexie-export-import: 4.0.7(dexie@3.2.4)
+      jose: 5.1.3
+      node-polyfill-webpack-plugin: 2.0.1(webpack@5.89.0)
+      react: 18.2.0
+      stream-browserify: 3.0.0
+      uuid: 9.0.1
+      zustand: 4.4.7(react@18.2.0)
+    transitivePeerDependencies:
+      - '@types/react'
+      - bufferutil
+      - debug
+      - immer
+      - supports-color
+      - utf-8-validate
+      - webpack
     dev: false
 
   /@scure/base@1.1.3:
