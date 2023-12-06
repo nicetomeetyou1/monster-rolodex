@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@scallop-io/scallop-mini-wallet':
-    specifier: ^0.1.0
-    version: 0.1.0(react@18.2.0)(webpack@5.89.0)
+    specifier: ^0.1.1
+    version: 0.1.1(react@18.2.0)(webpack@5.89.0)
   '@testing-library/jest-dom':
     specifier: ^5.16.5
     version: 5.17.0
@@ -2306,8 +2306,8 @@ packages:
     resolution: {integrity: sha512-2/U3GXA6YiPYQDLGwtGlnNgKYBSwCFIHf8Y9LUY5VATHdtbLlU0Y1R3QoBnT0aB4qv/BEiVVsj7LJXoQCgJ2vA==}
     dev: false
 
-  /@scallop-io/scallop-mini-wallet@0.1.0(react@18.2.0)(webpack@5.89.0):
-    resolution: {integrity: sha512-9uQf+c8MjqwDgJ+UQwLnxqNbiAIaIPDH46WaAEFXEri6Gm6AYEFx7IwWPYhI7jSKWVhrAkA3vPrMJ1FBTLWTAA==, tarball: https://npm.pkg.github.com/download/@scallop-io/scallop-mini-wallet/0.1.0/0938410727a6aab9149ba8dd5013d15ecccd43f8}
+  /@scallop-io/scallop-mini-wallet@0.1.1(react@18.2.0)(webpack@5.89.0):
+    resolution: {integrity: sha512-8ipHXOscv7oy3akjlRu35O/khsYib70wbwD1btMt1rJ0TDO6ihes+EB+fDRY7K2INfez+H/coa7sFcaa9QhkvA==, tarball: https://npm.pkg.github.com/download/@scallop-io/scallop-mini-wallet/0.1.1/65df0a95c19162466c922291bba13853eb438208}
     peerDependencies:
       react: '>=16'
     dependencies:
